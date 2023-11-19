@@ -129,7 +129,7 @@ buttonNonSerializableNonRecoverable.onclick = function() {
     { transaction: 1, operation: "c", resource: 0 },
   ];
 
-  description.innerHTML = "ABORT before after other transaction read chang and before other transaction to commit, bring to an Inconsistency.";
+  description.innerHTML = "ABORT before after other transaction read changes and before other transaction to commit, bring to an Inconsistency.";
 
   mapArrayToTable(schedule); 
 };
