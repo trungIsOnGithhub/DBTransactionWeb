@@ -1,0 +1,41 @@
+.centered-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+svg {
+    padding-left: 10em;
+}
+
+td,tr {
+    text-align: center;
+}
+
+.cell-t1 {
+    background-color: lightgreen !important;
+}
+
+.cell-t2 {
+    background-color: lightblue !important;
+}
+
+#description {
+    color: lightcoral;
+    font-weight: 600;
+    font-size: 1em;
+    text-align: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-body > p,a {
+    text-align: center;
+}
+.btn-outline-secondary:focus {
+    background-color: aquamarine;
+}
